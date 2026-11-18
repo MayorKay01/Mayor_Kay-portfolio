@@ -583,6 +583,7 @@ textarea:focus-visible {
 }
 
 .project-preview {
+    position: relative;
     min-height: 240px;
     display: grid;
     place-items: center;
@@ -594,94 +595,29 @@ textarea:focus-visible {
         #0b1626;
 }
 
-.preview-browser {
-    width: 78%;
-    height: 180px;
+.preview-desktop {
+    width: 88%;
+    height: 205px;
+    object-fit: cover;
+    object-position: center;
     overflow: hidden;
     border: 1px solid rgba(131, 167, 211, 0.22);
-    border-radius: 8px;
-    background: #0f1d30;
+    border-radius: 10px;
     box-shadow: 0 18px 48px rgba(0, 0, 0, 0.3);
-    transform: perspective(700px) rotateY(-8deg) rotateX(4deg);
+    transform: perspective(700px) rotateY(-5deg) rotateX(3deg);
 }
 
-.preview-chrome {
-    height: 22px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 0 8px;
-    border-bottom: 1px solid rgba(174, 202, 235, 0.1);
-}
-
-.preview-chrome i {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #62728a;
-}
-
-.preview-chrome span {
-    width: 38%;
-    height: 6px;
-    margin-left: 14px;
-    border-radius: 5px;
-    background: rgba(131, 157, 189, 0.13);
-}
-
-.preview-content {
-    position: relative;
-    height: calc(100% - 22px);
-    padding: 24px 20px;
-}
-
-.preview-content span {
-    display: block;
-    border-radius: 4px;
-}
-
-.preview-kicker {
-    width: 52px;
-    height: 4px;
-    margin-bottom: 11px;
-    background: rgba(68, 186, 255, 0.65);
-}
-
-.preview-title {
-    width: 55%;
-    height: 9px;
-    margin-bottom: 6px;
-    background: rgba(215, 230, 246, 0.78);
-}
-
-.preview-title.short {
-    width: 39%;
-    background: rgba(215, 230, 246, 0.46);
-}
-
-.preview-copy {
-    width: 42%;
-    height: 4px;
-    margin-top: 12px;
-    background: rgba(142, 161, 185, 0.4);
-}
-
-.preview-button {
-    width: 54px;
-    height: 14px;
-    margin-top: 14px;
-    background: #3ab4f5;
-}
-
-.preview-shape {
+.preview-mobile {
     position: absolute;
-    right: 20px;
-    bottom: 22px;
-    width: 68px;
-    height: 68px;
-    border: 1px solid rgba(90, 187, 255, 0.46);
-    border-radius: 50% 50% 12px 50%;
-    background: linear-gradient(140deg, rgba(46, 159, 255, 0.48), rgba(127, 110, 255, 0.16));
+    right: 5%;
+    bottom: 10px;
+    width: 74px;
+    height: 136px;
+    object-fit: cover;
+    object-position: top;
+    border: 4px solid #eef3f8;
+    border-radius: 9px;
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.48);
 }
 
 .project-copy {
