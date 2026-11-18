@@ -1221,6 +1221,27 @@ textarea:focus-visible {
     font-size: 0.79rem;
 }
 
+.footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    margin-top: 8px;
+    color: var(--text-soft);
+    font-size: 0.76rem;
+    transition: color 180ms ease, transform 180ms ease;
+}
+
+.footer-social-link svg {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-social-link:hover {
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
 .footer-label {
     margin-bottom: 10px;
     color: #8393a7;
