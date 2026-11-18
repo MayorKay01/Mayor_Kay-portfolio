@@ -673,6 +673,20 @@ textarea:focus-visible {
     font-size: 0.66rem;
 }
 
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.project-links .btn {
+    min-height: 44px;
+    gap: 12px;
+    padding: 0 15px;
+    font-size: 0.82rem;
+}
+
 .project-index {
     position: absolute;
     top: 18px;
