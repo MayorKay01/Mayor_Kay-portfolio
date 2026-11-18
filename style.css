@@ -1626,19 +1626,15 @@ textarea:focus-visible {
         min-height: 175px;
     }
 
-    .preview-browser {
-        width: 84%;
+    .preview-desktop {
+        width: 92%;
         height: 150px;
     }
 
-    .preview-content {
-        padding: 19px 14px;
-    }
-
-    .preview-shape {
-        right: 12px;
-        width: 54px;
-        height: 54px;
+    .preview-mobile {
+        right: 3%;
+        width: 64px;
+        height: 118px;
     }
 
     .section {
