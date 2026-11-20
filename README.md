@@ -15,6 +15,7 @@ This is a static, multi-page portfolio site. It has no build step or runtime dep
 │   ├── icons/
 │   │   └── favicon.png
 │   └── images/
+│       ├── lustro.png
 │       ├── prosper-desktop.png
 │       └── prosper-mobile.png
 ├── css/

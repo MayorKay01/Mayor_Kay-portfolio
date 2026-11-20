@@ -598,6 +598,15 @@ textarea:focus-visible {
     transform: perspective(700px) rotateY(-5deg) rotateX(3deg);
 }
 
+.lustro-preview {
+    height: 215px;
+    object-position: center;
+}
+
+.project-placeholder + .project-placeholder {
+    margin-top: 24px;
+}
+
 .preview-mobile {
     position: absolute;
     right: 5%;
